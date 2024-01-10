@@ -1,0 +1,99 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+:global {
+  #workbenchPageContent,
+  .CanvasComponent.LCS .CanvasZone {
+    max-width: 100% !important;
+  }
+}
+
+.form {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.container{
+  width:100%
+}
+.column1{
+  width: 50%;
+}
+.column2{
+  width:50%
+}
+
+// .ant-form {
+//   &.Item {
+//     &.label {
+//       margin-right: 69px !important;
+//       text-align: left !important;
+//       content: none !important;
+//     }
+//   }
+// }
+
+// .ant-form {
+//   flex-wrap: wrap !important;
+//   justify-content: flex-end !important;
+// }
+
+// .ant-form {
+//   .ant-form-item {
+//     &-label {
+//       margin-right: 69px !important;
+//       text-align: left !important;
+//     }
+//   }
+
+//   flex-wrap: wrap !important;
+//   justify-content: flex-end !important;
+// }
+
+// .ant-form {
+//   .ant-form-item {
+//     &-label {
+//       margin-right: 69px !important;
+//       overflow: visible !important;  // Remove overflow style
+//       white-space: normal !important;  // Remove white-space style
+//       text-align: left !important;  // Remove text-align style
+//     }
+//   }
+
+//   flex-wrap: wrap !important;
+//   justify-content: flex-end !important;
+// }
+
+// .ant-form-item-label>label:after {
+//   content: "" !important;  /* Set content to an empty string to remove the colon */
+//   position: relative;
+//   top: -.5px;
+//   margin: 0 8px 0 2px;
+// }
