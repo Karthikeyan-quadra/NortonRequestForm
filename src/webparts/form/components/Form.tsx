@@ -273,8 +273,8 @@ const Form = (props: IFormProps) => {
 <AntdForm
     form={form}
     name="basic"
-    labelCol={{ span: 11 }}
-    wrapperCol={{ span: 16 }}
+    labelCol={{ span: 9 }}
+    wrapperCol={{ span: 13 }}
     style={{ maxWidth:'100%' }}
     initialValues={{ remember: true }}
     onFinish={onFinish}
@@ -322,7 +322,7 @@ const Form = (props: IFormProps) => {
       <TextArea
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        placeholder="Controlled autosize"
+        placeholder=""
         autoSize={{ minRows: 3, maxRows: 5 }}
       />
       </AntdForm.Item>
@@ -419,7 +419,7 @@ const Form = (props: IFormProps) => {
     </Col>
 
     <Col span={12}>
-    <AntdForm.Item style={{display:'flex', flexDirection:'row', marginLeft: '34rem', marginTop:'58px',float: 'left'}} >
+    <AntdForm.Item style={{display:'flex', flexDirection:'row', marginLeft: '56rem', marginTop:'58px',float: 'left'}} >
       <Button type="primary"  style={{ backgroundColor: '#FFF', color:'#000', borderColor:'#000', borderRadius:'35px', width:'115px' }}>Cancel</Button>    
       </AntdForm.Item>
 
